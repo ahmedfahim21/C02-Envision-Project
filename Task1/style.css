@@ -1,0 +1,29 @@
+body{   
+    color:aliceblue;
+    background-image: url('desktop-wallpaper-linear-gradient-green-blue-pale-green-light-thumbnail.jpg');
+    background-size: 100% 450%;
+    padding: 10%;
+    
+}
+.main{
+    color:rgb(0, 0, 0);
+    font-family:'Garamond (serif)';
+    font-style:initial;
+    }
+
+.button{
+    color:whitesmoke;
+    line-height:3.5;
+    font-style:oblique;
+    font-family:'AvantGarde-Demi';
+    text-align:center;
+    position:static;
+    margin: 0 auto;
+    }
+
+
+
+
+
+
+

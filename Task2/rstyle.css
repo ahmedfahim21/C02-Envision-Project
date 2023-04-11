@@ -1,0 +1,51 @@
+body{
+    padding-top:3%;
+    background-image: url("desktop-wallpaper-linear-gradient-green-blue-pale-green-light-thumbnail.jpg");
+    background-size: 200% 450%;
+    font-size: 15px;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
+
+.small{
+    position:relative;
+    padding-left:20px;
+    
+}
+
+.textbox{
+    position:relative;
+    padding-left: 20px;
+}
+
+aside{
+    padding-left:40%;
+}
+
+body{
+    padding-left: 35%;
+}
+
+#g{
+    padding-bottom: 5px;
+}
+
+#b{
+    padding-left:20%;
+    padding-top:2.5%;
+}
+
+button{
+    font-size:30px;
+    border-radius: 26px;
+    background-color: rgba(0, 0, 0, 0.99);
+    padding: 5px 5px;
+    color: aliceblue;
+}
+
+button:hover{
+    border-color: aqua;
+    background-color: aliceblue;
+    color: black;
+}

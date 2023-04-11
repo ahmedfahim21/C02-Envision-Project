@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rstyle.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1 style="padding-left:2%;">Registration form</h1>
+    <em><h3>Please fill in the below details</h3></em>
+
+    <form>
+
+    <table>
+        <tr>
+        
+        <td> <label for="name">Name</label> <br>
+        <input id="name" type="text"> </td>
+
+        <td class="small">
+            <label for="Branch"> Branch </label> <br>
+            <select id="Branch">
+
+            <option value="AI"> AI </option>
+            <option value="CDS"> CDS </option>
+            <option value="CSE"> CSE </option>
+            <option value="IT"> IT </option>
+            <option value="ECE"> ECE </option>
+            <option value="EEE"> EEE </option>
+            <option value="CV"> Civil </option>
+            <option value="ML"> Metallurgy </option>
+            <option value="MN"> Mining </option>
+            <option value="MC"> Mechanical </option>
+            <option value="CH"> Chemical </option>
+        </select> </td> </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+        
+        <td><label for="roll">Roll Number</label> <br>
+        <input id="roll" type="text"></td>
+
+        <td class="small">
+            <label for="section">Section</label> <br>
+            <select id="section">
+            
+                <option value="1"> S1 </option>
+                <option value="2"> S2 </option>
+                <option value="3"> S3 </option>
+                <option value="4"> S4 </option>
+                <option value="5"> S5 </option>
+                <option value="6"> S6 </option>
+                <option value="7"> S7 </option>
+                <option value="8"> S8 </option>
+                <option value="9"> S9 </option>
+                <option value="10"> S10 </option>
+                <option value="11"> S11 </option>
+                <option value="12"> S12 </option>
+                <option value="13"> S13 </option>
+                <option value="14"> S14 </option>
+            </select></td>
+        </tr>
+        </table>
+        
+        <br>
+           <label id="g" for="sct">Gender</label> <br>
+            <div><input type="radio" name="sct" id="m" value="Male">
+                <label for="m">Male</label>
+            <input type="radio" name="sct" id="f" value="Female">
+                <label for="f">Female</label>
+            <input type="radio" name="sct" id="o" value="Others">
+                <label for="o">Others</label> </div> <br>
+
+    <label for="ph">Mobile number</label> <br>
+    <input type="number" id="ph"> <br>
+
+    <h3><label> Enter residential address</label></h3>  
+    <label for="ad1">Address Line 1</label>
+    <div class="textbox"> <input class="textbox" type="text" id="ad1"> </div> 
+    <label for="ad2">Address Line 2</label>
+    <div class="textbox"> <input class="textbox" type="text" id="ad2"> </div> 
+    <label for="ad3">Address Line 3</label>
+    <div class="textbox"> <input class="textbox" type="text" id="ad3"> </div> 
+    <label for="State">State</label>
+    <div class="textbox"> <input class="textbox" type="text" id="State"> </div> 
+    <label for="pin">Pincode</label>
+    <div class="textbox"> <input class="textbox" type="number" id="pin"> </div> <br> <br>
+    
+    <table>
+    <tr><td> <label for="mcq">Programming language(s) familiar with</label><br>
+    <input type="checkbox" name="mcq" id="c" value="c">
+        <label for="c">C/C++</label>
+    <input type="checkbox" name="mcq" id="py" value="Python">
+        <label for="py">Python</label>
+    <input type="checkbox" name="mcq" id="j" value="Java">
+        <label for="j">Java</label>
+    </td>
+
+    <td><aside>
+        <div style="padding-bottom:10px; position:static;"><label for="file">Upload ID proof</label> </div>
+        <input type="file" id="file">
+    </aside> </td>
+    </tr></table>
+    </form>
+
+    <div id="b"><button onclick="window.location.href='../Task1/404.html';">Submit</button></div>
+
+</body>
+
+</html>

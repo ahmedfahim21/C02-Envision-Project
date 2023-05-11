@@ -6,6 +6,12 @@ The goal of this project is to teach frontend Web Development, starting off with
 
 - [Task1](./task1.md)
 - [Task2](./task2.md)
+
+## Project
+<p>Implement your learning in building a fun project</p>
+
+- [Moviemaven](./moviemaven)
+
 <hr>
 
 ## Using Git and Github
@@ -54,5 +60,8 @@ _Merge conflicts_ are common when collaborating using Git. If you ever come acro
   - [Basics](https://youtu.be/XIOLqoPHCJ4)
   - [Advanced](https://youtu.be/R9I85RhI7Cg)
   - [Async](https://youtu.be/exBgWAIeIeg)
+- [React Course Playlist](https://youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+- [React Reference](https://react.dev/learn)
+- [TailwindCSS Tutorial Video](https://youtu.be/8eQwgc9nc64)
   
   

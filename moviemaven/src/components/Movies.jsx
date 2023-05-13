@@ -20,8 +20,9 @@ const Movies =() =>{
         searchMovies('Spider')
     }, []);
     return(
-        <div className=" font-[Roboto Slab] bg-background p-16 flex flex-col mx-auto">
-            <h1 className="mx-auto xl:text-7xl text-5xl font-bold my-gradient">Moviemaven</h1>
+        <div  id='Search' className="font-[Roboto Slab] bg-background lg:p-16 flex flex-col mx-auto">
+        <br/>    
+            <h1 className="text-justify mx-auto flex xl:text-7xl text-5xl font-bold my-gradient">Moviemaven</h1>
             <div className="md:w-[70%] w-[100%] m-8 flex mx-auto p-6 shadow-xl rounded-2xl bg-dark ">
                 <input className="border-none bg-dark text-[#a1a1a1] w-full text-2xl outline-none font-[Raleway]"
                 placeholder="Search for Movies"

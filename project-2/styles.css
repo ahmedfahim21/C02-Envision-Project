@@ -1,0 +1,28 @@
+
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+body {
+    background-image: url(backg.jpg);
+}
+
+label {
+    font-weight: 500;
+    font-size: large;
+}
+
+
+
+div {
+    background-color: black; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

@@ -42,7 +42,7 @@ Movie reviews and ratings are scattered across different websites and platforms,
 
 
 
-![image 1](/virtual-expo/assets/img/SIG/img1.jpg)
+![image 1](/moviemaven/src/assets/jk-placeholder-image.jpg))
 
 ## Design and UI/UX
 
@@ -65,9 +65,9 @@ The MovieMaven web app is developed using the following technologies:
 - We learned React and used hooks and state management to develop the user interface.
 - We learned best UI/UX practices for frontend development and used TailwindCSS for styling.
 
-![image_2](/virtual-expo/assets/img/SIG/img2.jpg)
+![image_2](/moviemaven/src/assets/jk-placeholder-image.jpg)
 
-![image_3](/virtual-expo/assets/img/SIG/img3.jpg)
+![image_3](/moviemaven/src/assets/jk-placeholder-image.jpg))
 
 ### Design and UI/UX
 

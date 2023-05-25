@@ -8,7 +8,7 @@ function MovieModal({movie,state}) {
     const [themovie, settheMovie] = useState([]); 
 
     const handleClick = async (movie) => {
-      const API_URL = 'http://www.omdbapi.com/?apikey=5be58ebd';
+      const API_URL = 'https://www.omdbapi.com/?apikey=5be58ebd';
       const res = await axios.get(`${API_URL}&i=${movie}`);
       const data = await  res.data;
       // console.log(data);

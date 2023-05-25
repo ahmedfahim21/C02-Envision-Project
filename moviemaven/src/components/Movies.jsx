@@ -5,7 +5,7 @@ import axios from "axios";
 
 //5be58ebd
 
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=5be58ebd'
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=5be58ebd'
 const Movies =() =>{
     const [movies, setMovies] = useState([]);
     const [searchTerm, setSearchTerm] = useState([]);

@@ -3,9 +3,7 @@ import SearchIcon from '../assets/search.svg'
 import MovieCard from "./MovieCard";
 import axios from "axios";
 
-//5be58ebd
-
-const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=5be58ebd'
+const API_URL = `https://www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_API_KEY}`
 const Movies =() =>{
     const [movies, setMovies] = useState([]);
     const [searchTerm, setSearchTerm] = useState([]);

@@ -31,7 +31,13 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git clone https://github.com/ahmedfahim21/C02-Envision-Project/
    ```
-2. Install and start frontend
+2. Genereate the Api key from OMDB website and
+   create a .env file inside moviemaven folder and add the following
+   ```
+   REACT_APP_API_KEY=<yourkey>
+   ```
+
+3. Install and start frontend
    ```sh
    cd moviemaven
    npm install

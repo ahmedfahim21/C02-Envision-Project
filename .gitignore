@@ -1,5 +1,6 @@
 # misc
 .DS_Store
+/moviemaven/.env
 .env
 .env.local
 .env.development.local
